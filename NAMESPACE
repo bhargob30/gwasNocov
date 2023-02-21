@@ -1,0 +1,7 @@
+useDynLib(gwasNocov, .registration=TRUE)
+import(RcppArmadillo)
+importFrom(Rcpp, evalCpp)
+export("V_lambda_tau")
+export("beta_tilda")
+export("neglr_lambda_tau")
+export("beta_hat_sigma_hat")
